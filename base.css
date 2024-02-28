@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-indent: 30px;
+    font-size: medium;
+    text-align: left;
+}
+
+.content h2,h1{
+    text-align: center;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+    background-color: #D9F5FF;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #FFD7DF;
+    padding: 20px 20px 0px;
+}
+
+.menu ul{
+    display: grid;
+    gap: 15px;
+}
+
+.header {
+    max-height: 150px;
+    width: 83vw;
+    overflow: hidden; /* oculta qualquer parte da imagem que não caiba na div */
+    position: relative;
+}
+
+.content {
+    display: grid;
+    min-height: 300px;
+    padding: 40px 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.location{
+    width: 280px;
+}
+
+form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.forms{
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    gap: 10px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+th{
+    padding: 15px 25px;
+}
+
+td{
+    padding-right: 20px;
+}
+
+.footer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer img{
+    height: 150px;
+    max-height: 150px;
+}
